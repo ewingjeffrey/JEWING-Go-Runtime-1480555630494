@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 384M
+  instances: 1
+  domain: mybluemix.net
+  name: JEWING Go Runtime
+  host: Go-Runtime
+  disk_quota: 1024M
+  services:
+  - Jeff's New Relic Performance Monitor
+  buildpack: go_buildpack
